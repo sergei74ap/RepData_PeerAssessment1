@@ -37,8 +37,8 @@ length(unique(actData$date)); range(actData$date)
 ```
 
 Now let's take a look at the distribution of the observations in time.
-We have 5-minute intervals, so the dataset should consist of 12 intervals per each hour
-* 24 hours per day = 288 records per date. Is that true?
+We have 5-minute intervals, so the dataset should consist of 12 intervals per 
+each hour * 24 hours per day = 288 records per date. Is that true?
 
 ```{r dates}
 table(actData$date)
